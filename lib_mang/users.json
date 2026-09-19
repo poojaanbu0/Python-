@@ -1,0 +1,16 @@
+[{
+    "Student_name" : "S101" ,
+    "Student-id": "Ajay",
+"has_membership" : "True"
+    }
+,{
+    "Student-id" : "S102" ,
+    "Student_name": "Ashok",
+    "has_membership" : "False"
+},
+{
+    "librarian_name": "Rubic"
+},
+{
+"books":"[1989, Harry Porter]"
+}]
