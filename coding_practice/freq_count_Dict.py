@@ -17,16 +17,25 @@
 # print(list(res))
 # print(list(res))
 
-def palindrome(str):
-    x = ""
-    for char in str:
-        x = char + x
+arr = list(map(int, input("Enter array: ").split()))
 
-    if (x==str):
-        print("palindrome")
-    else:
-        print("not palindrome")
+for i in range(len(arr)):
 
-str = input("Enter str")
+    # Don't print the same number again
+    already_counted = False
 
-palindrome(str)
+    for k in range(i):
+        if arr[k] == arr[i]:
+            already_counted = True
+            break
+
+    if already_counted:
+        continue
+
+    count = 0
+
+    for j in range(len(arr)):
+        if arr[i] == arr[j]:
+            count += 1
+
+    print(arr[i], "->", count)
