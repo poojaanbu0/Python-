@@ -8,6 +8,6 @@ def palindrome(str):
     else:
         print("not palindrome")
 
-str = input("Enter str")
-
+str = input("Enter str").replace(" ","")
+print(str)
 palindrome(str)
