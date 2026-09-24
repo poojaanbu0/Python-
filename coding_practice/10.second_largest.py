@@ -1,6 +1,7 @@
+import math
 def second_largest(arr):
-    largest = 0
-    second_largest = 0
+    largest = float('-inf')
+    second_largest = float('-inf')
 
     for i in arr:
         if largest < i:
