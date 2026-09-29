@@ -21,3 +21,5 @@ result = transpose(matrix)
 
 for row in result:
     print(row)
+
+#how to get input for this for a matrix

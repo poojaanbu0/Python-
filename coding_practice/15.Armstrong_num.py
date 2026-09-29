@@ -19,3 +19,4 @@ def armstrong(n):
 
 n = int(input("enter number "))
 armstrong(n)
+#example : 153 = 1^3 + 5^3 + 3^3 = 153
