@@ -26,7 +26,6 @@ def longestCommonSubsequence(text1, text2):
     n = len(text2)
 
     dp = [[0] * (n+1) for _ in range(m+1)]
-    print(dp)
 
     for i in range(1,m+1):
 

@@ -13,10 +13,10 @@ def strong(n):
         n //= 10
     return temp == sum
 
-
-
 n = int(input("enter num "))
 if (strong(n)):
     print("strong")
 else:
     print("no strong")
+
+#sum of factorial of each digit 

@@ -5,7 +5,7 @@ def gcd(a,b):
         temp = y
         y = x % y
         x = temp
-    lcm = (a * b) / x
+    lcm = (a * b) / x  #lcm x hcf = product of 2 nos
     print(lcm)
 
 a = int(input("enter no1 "))
