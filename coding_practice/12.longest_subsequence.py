@@ -1,5 +1,8 @@
 #longet_increasing
 
+# single array dp 
+# compare values and change to max of dp[i],dp[j] + 1
+
 #longest_subsequence_common
 def longestCommonSubsequence(text1, text2):
     #two pointers
