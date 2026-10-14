@@ -8,3 +8,6 @@ def gcd(a,b):
 a = int(input("enter no1 "))
 b = int(input("enter no2 "))
 gcd(a,b)
+
+#euclidean subraction method
+
