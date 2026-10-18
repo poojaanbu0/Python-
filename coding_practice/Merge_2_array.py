@@ -1,3 +1,5 @@
+# merge arrays using 2 pointers
+
 def merge_sorted(arr1, arr2):
     i = 0
     j = 0
