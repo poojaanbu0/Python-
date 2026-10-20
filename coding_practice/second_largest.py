@@ -12,4 +12,9 @@ import math
 #     print(second_largest)
             
 # arr = list(map(int, input("enter array ").split()))
+
 # second_largest(arr)
+# k_th largest(arr)
+
+def k_th_largest(arr, k):
+    
