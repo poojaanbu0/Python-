@@ -65,3 +65,25 @@
 # print(common(a, b))
 
 
+# find Duplicate elements in array
+
+
+def find_duplicates(arr):
+    seen = set()
+    duplicates = set()
+    result = []
+
+    for num in arr:
+        if num in seen:
+            if num not in duplicates:
+                duplicates.add(num)
+                result.append(num)
+        else:
+            seen.add(num)
+
+    return result
+
+
+arr = list(map(int, input("Enter array: ").split()))
+print(find_duplicates(arr))
+    

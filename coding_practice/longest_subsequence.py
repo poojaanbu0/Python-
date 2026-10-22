@@ -50,12 +50,32 @@
             
 # character containment
 
-def contain(str1, str2):
-    for char in str1:
-        if char not in str2:
-            return False
-    return True
+# def contain(str1, str2):
+#     for char in str1:
+#         if char not in str2:
+#             return False
+#     return True
 
-str1 = input("enter the arr: ")
-str2 = input("enter the arr: ")
-print(contain(str1,str2))
+# str1 = input("enter the arr: ")
+# str2 = input("enter the arr: ")
+# print(contain(str1,str2))
+
+# check substring - order matter
+
+def check_substring(s, target):
+    if target == "":
+        return True
+
+    for i in range(len(s) - len(target) + 1):
+        j = 0
+
+        while j < len(target) and s[i + j] == target[j]:
+            j += 1
+
+        if j == len(target):
+            return True
+
+    return False
+s = input("enter the arr")
+target = input("enter the arr")
+print(check_substring(s, target))
